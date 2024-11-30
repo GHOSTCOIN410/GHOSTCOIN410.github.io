@@ -14,7 +14,6 @@
     transform: scale(1.05);
 }
 
-/* Estilo específico para el botón de Telegram */
 .button.telegram {
     background-color: #0088cc;
 }
@@ -23,7 +22,6 @@
     background-color: #006fa6;
 }
 
-/* Estilo específico para el botón de Twitter */
 .button.twitter {
     background-color: #1da1f2;
 }
@@ -32,7 +30,6 @@
     background-color: #1a91c2;
 }
 
-/* Estilo específico para el botón de Discord */
 .button.discord {
     background-color: #7289da;
 }
