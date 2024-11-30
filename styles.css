@@ -103,7 +103,14 @@ a {
 .community-links .twitter:hover {
     background: #0d8cdc;
 }
+.community-links .discord {
+    background: #1da1f2;
+    color: #fff;
+}
 
+.community-links .discord:hover {
+    background: #0d8cdc;
+}    
 /* Footer */
 .footer {
     background: #0d0d0d;
