@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #121212, #1a1a1a);
+    color: #f2f2f2;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #00ffcc;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    background: #0d0d0d;
+    padding: 2rem 0;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.header .tagline {
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+/* Main Content */
+.main-content {
+    padding: 2rem 1rem;
+}
+
+.story {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+    background: #1e1e1e;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.story h2 {
+    margin-bottom: 1rem;
+}
+
+.story p {
+    margin-bottom: 1rem;
+}
+
+/* Community Links */
+.community-links {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.community-links h2 {
+    margin-bottom: 1rem;
+}
+
+.community-links .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.community-links .button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.community-links .telegram {
+    background: #0088cc;
+    color: #fff;
+}
+
+.community-links .telegram:hover {
+    background: #006699;
+}
+
+.community-links .twitter {
+    background: #1da1f2;
+    color: #fff;
+}
+
+.community-links .twitter:hover {
+    background: #0d8cdc;
+}
+
+/* Footer */
+.footer {
+    background: #0d0d0d;
+    color: #777;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+/* Logo */
+.logo {
+    max-width: 150px;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
