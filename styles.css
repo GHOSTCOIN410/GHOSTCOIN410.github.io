@@ -86,31 +86,32 @@ a {
     transition: background 0.3s ease;
 }
 
-.community-links .telegram {
-    background: #0088cc;
-    color: #fff;
+/* Estilo específico para el botón de Telegram */
+.button.telegram {
+    background-color: #0088cc;
 }
 
-.community-links .telegram:hover {
-    background: #006699;
+.button.telegram:hover {
+    background-color: #006fa6;
 }
 
-.community-links .twitter {
-    background: #1da1f2;
-    color: #fff;
+/* Estilo específico para el botón de Twitter */
+.button.twitter {
+    background-color: #1da1f2;
 }
 
-.community-links .twitter:hover {
-    background: #0d8cdc;
-}
-.community-links .discord {
-    background: #1da1f2;
-    color: #fff;
+.button.twitter:hover {
+    background-color: #1a91c2;
 }
 
-.community-links .discord:hover {
-    background: #0d8cdc;
-}    
+/* Estilo específico para el botón de Discord */
+.button.discord {
+    background-color: #7289da;
+}
+
+.button.discord:hover {
+    background-color: #5e6dbd;
+}
 /* Footer */
 .footer {
     background: #0d0d0d;
